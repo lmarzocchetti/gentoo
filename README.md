@@ -1,4 +1,4 @@
-# zocaro
+# dio
 
 **1) crea un profilo** <br/>
 \# useradd -m -G wheel -s /bin/bash dio<br/>
@@ -8,12 +8,12 @@
 usa CTRL+W per cercare "#wheel ALL=(ALL) ALL"<br/>
 elimina il "#" davanti a wheel<br/>
 CTRL+O, ENTER, CTR+X per salvare<br/>
-CTRL+D per uscire dal profilo root ed entrare con quello appena creato (zocaro)<br/>
+CTRL+D per uscire dal profilo root ed entrare con quello appena creato (dio)<br/>
 **3) installa i driver grafici, la WM, e varie robe utili** <br/>
 \# sudo pacman -S xf86-video-nouveau xorg-server xorg-xinit i3 i3status rxvt-unicode ttf-liberation dmenu firefox emacs feh compton unclutter git<br/>
 usando sudo sfrutti dei privilegi da amministratore quindi ti chiederà di inserire la password (quella dell'account corrente non del root)<br/>
 **4) scarica i vari file delle configurazioni**<br/>
-\# git clone https://github.com/gspaceman/zocaro.git<br/>
+\# git clone https://github.com/lmarzocchetti/gentoo<br/>
 **5) copiali nei loro posti**<br/>
 \#cp zocaro/.xinitrc ~/<br/>
 \#cp zocaro/.Xdefaults ~/<br/>
