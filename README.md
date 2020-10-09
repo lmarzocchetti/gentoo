@@ -15,10 +15,10 @@ usando sudo sfrutti dei privilegi da amministratore quindi ti chiederà di inser
 **4) scarica i vari file delle configurazioni**<br/>
 \# git clone https://github.com/lmarzocchetti/gentoo<br/>
 **5) copiali nei loro posti**<br/>
-\#cp zocaro/.xinitrc ~/<br/>
-\#cp zocaro/.Xdefaults ~/<br/>
-\#cp -r zocaro/.config ~/ <br/>
-\#cp -r zocaro/.wall ~/<br/>
+\#cp dio/.xinitrc ~/<br/>
+\#cp dio/.Xdefaults ~/<br/>
+\#cp -r dio/.config ~/ <br/>
+\#cp -r dio/.wall ~/<br/>
 **6) avvia la Window Manager**<br/>
 \#startx<br/>
 
