@@ -1,8 +1,8 @@
 # zocaro
 
 **1) crea un profilo** <br/>
-\# useradd -m -G wheel -s /bin/bash zocaro<br/>
-\# passwd zocaro<br/>
+\# useradd -m -G wheel -s /bin/bash dio<br/>
+\# passwd dio<br/>
 **2) autorizza i privilegi da amministratore su quel profilo** <br/>
 \# EDITOR=nano visudo<br/>
 usa CTRL+W per cercare "#wheel ALL=(ALL) ALL"<br/>
